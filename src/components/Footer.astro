@@ -4,12 +4,29 @@ const username = "bammer87";
 import Social from "./Social.astro";
 ---
 
+<style>
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background-color: #4c1d95;
+    color: #fff;
+
+    a {
+      color: #fff;
+    }
+  }
+</style>
+
 <footer>
   <p>
     Learn more about my projects on <a
       href={`https://www.${platform}.com/${username}`}>{platform}</a
     >!
-    <Social platform="instagram" username="bammer87" />
+    <Social platform="instagram" username="mboehm87" />
     <Social platform="twitter" username="mboehm87" />
   </p>
 </footer>
