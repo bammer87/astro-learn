@@ -25,6 +25,9 @@ h1 {
 }
 
 /* nav styles */
+nav {
+  background-color: #0d0950;
+}
 .menu {
   background-color: #0d0950;
   border: none;
